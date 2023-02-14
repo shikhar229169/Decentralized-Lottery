@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><h1 class="heading">Decentralized Lottery</h1></li>
+                <li><div id="accountAddressShow">
+                    <span>Connect your wallet from button below</span>
+                </div></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="txn-section">
+        <div id="txn">
+            <div class="cards" id="connect">
+                <h2>Connect to Wallet</h2>
+                <p>Connect to your metamask wallet and start making entry to lottery</p>
+                <p>Connect your wallet now</p>
+                <button id="connectButton" class="buttonCSS">Connect to Wallet</button>
+                <p id="connectResponse" class="response"></p>
+            </div>
+            <div class="cards" id="enterLottery">
+                <h2>Enter Lottery</h2>
+                <p>Enter into the lottery and wait there till we select a random Winner</p>
+                <p>Entry Fee: <span id="feeDisplay"></span></p>
+                <button id="enterLotteryButton" class="buttonCSS">Enter Lottery</button>
+                <p id="enterLotteryResponse" class="response"></p>
+            </div>
+        </div>
+    </section>
+    <section id="winner-section">
+        <div>
+            <h2>Our Winner Is</h2>
+            <p id="winnerResponse"></p>
+        </div>
+    </section>
+</body>
+</html>

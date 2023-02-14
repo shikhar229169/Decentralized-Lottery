@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Quicksand&family=Ubuntu&display=swap');
+
+/* Reset */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Header */
+nav {
+    margin: 7px;
+    margin-left: 15px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.heading {
+    font-size: 50px;
+    font-family: 'Ubuntu';
+}
+
+#accountAddressShow {
+    border: solid 2px black;
+    position: relative;
+    left: 100px;
+    padding: 10px;
+    border-radius: 27px;
+    font-size: 20px;
+    font-family: 'Quicksand';
+}
+
+
+/* txn */
+#txn-section {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#txn-section h2 {
+    font-family: 'Quicksand';
+}
+
+#txn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cards {
+    margin: 20px;
+    width: 300px;
+    height: 330px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #414141;
+}
+
+.cards h2 {
+    text-align: center;
+    background-color: #e5e1e1;
+    border-radius: 7px;
+    padding: 7px;
+    margin-bottom: 4px;
+    margin-top: 7px;
+}
+
+.cards p {
+    color: #e5e1e1;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.buttonCSS {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 12px;
+    border: solid white 2px;
+    background-color: transparent;
+    color: white;
+    width: 150px;
+    margin: auto;
+    display: block;
+    font-family: 'Ubuntu';
+    font-size: 17px;
+    box-shadow: 0px 0px 9px white;
+    transition: all 0.2s ease-in 0s;
+    margin-top: 10px;
+}
+
+.buttonCSS:hover {
+    box-shadow: inset 0px 0px 1px white;
+    transform: scale(1.06);
+}
+
+.response {
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+
+/* Winner Section */
+#winner-section {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#winner-section h2 {
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+
+#winner-section p {
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 19px;
+    font-weight: bold;
+}
